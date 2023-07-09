@@ -1,0 +1,231 @@
+@import "vendors";
+
+/* стили главной страницы */
+
+.nav__link {
+  @include nav;
+}
+
+#main {
+  padding: 20px 20px 368px 20px;
+  background: url('../img/bg.png') no-repeat;
+  background-size: cover;
+
+  h1 {
+    margin-top: 248px;
+    @include h1-white
+  }
+
+
+  p {
+    margin-top: 20px;
+    @include p;
+  }
+
+  .btn-primary {
+    margin-top: 30px;
+    @include btn-primary
+  }
+
+}
+
+#advantages {
+  background-image: url("../img/bg__advantages.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .advantages__item {
+    margin: 40px 0px;
+
+    h3 {
+      @include h3
+    }
+
+    p {
+      margin-top: 10px;
+      @include p-black
+    }
+  }
+
+  h1 {
+    @include h1-black
+  }
+
+}
+
+#brand {
+
+  .brand__item {
+    img {
+      overflow: hidden;
+    }
+  }
+}
+
+#catalog {
+
+  h1 {
+    @include h1-black
+  }
+
+  .row {
+    margin-top: 30px;
+  }
+
+  .card {
+    height: 520px;
+    border-radius: 18px;
+    padding: 28px;
+
+    .title {
+      margin-top: auto;
+
+      h4 {
+        @include h4
+      }
+
+      .title__item {
+        gap: 10px;
+        margin-top: 8px;
+
+        p {
+          @include p
+        }
+      }
+    }
+  }
+
+  .btn-block {
+    margin-top: 40px;
+    @include btn-block
+  }
+}
+
+#completedProjects {
+  .title {
+
+    h1 {
+      @include h1-black
+    }
+
+    .btn-secondary {
+      @include btn-secondary;
+      color: $text-color;
+      border: 1px solid $text-color;
+    }
+  }
+
+  .project {
+    background: url('../img/bg__project.png') no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    width: 100%;
+    height: 744px;
+    border-radius: 18px;
+  }
+
+  .CompletedProjects__item {
+    margin-top: 40px;
+
+    h2 {
+      @include h2
+    }
+
+    p {
+      @include p-black
+    }
+
+
+  }
+
+  .tags {
+    gap: 10px;
+    margin-top: 30px;
+
+    .tag {
+      @include tag
+    }
+
+    .tags__item {
+      gap: 10px;
+    }
+  }
+}
+
+#reviews {
+  .title {
+    h1 {
+      @include h1-black
+    }
+  }
+
+  .btn-reviews {
+    @include btn-reviews
+  }
+
+  .card {
+    margin-top: 30px;
+    @include reviews__card
+  }
+
+  .slider-container {
+    gap: 20px;
+    transition: transform 0.5s ease;
+  }
+
+  .slider-item {
+    flex: 0 0 calc((100% - 40px) / 3);
+  }
+
+  .slider-item:nth-child(3) {
+    margin-right: -20px;
+  }
+
+}
+
+#designers {
+
+  .title {
+    h1 {
+      @include h1-black
+    }
+
+    p {
+      margin-top: 20px;
+      @include p-black
+    }
+  }
+
+  .row {
+    margin-top: 30px;
+
+    p {
+      @include p-black
+    }
+
+    .designers__item {
+      gap: 20px;
+    }
+  }
+
+
+  .designerProject {
+    background: url('../img/bg__designerProject.png') no-repeat;
+    margin-top: 30px;
+    width: 100%;
+    height: 744px;
+    border-radius: 18px;
+  }
+
+  .btn-block {
+    margin-top: 40px;
+    @include btn-block
+  }
+}
+
+#cta {
+
+  .btn-cta {
+    @include btn-cta
+  }
+}
+

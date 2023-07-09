@@ -1,0 +1,3201 @@
+@charset "UTF-8";
+/* Общие стили */
+/* Подключение шрифтов */
+@font-face {
+  font-family: "Mabry-pro";
+  src: url("../fonts/mabrypro-light/MiConv.com__MabryPro-Light.eot") format("eot"), url("../fonts/mabrypro-light/MabryPro-Light.woff") format("woff"), url("../fonts/mabrypro-light/MabryPro-Light.ttf") format("truetype"), url("../fonts/mabrypro-light/MabryPro-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Mabry-pro";
+  src: url("../fonts/mabrypro-regular/MiConv.com__MabryPro-Regular.eot") format("eot"), url("../fonts/mabrypro-regular/MabryPro-Regular.woff") format("woff"), url("../fonts/mabrypro-regular/MabryPro-Regular.ttf") format("truetype"), url("../fonts/mabrypro-regular/MabryPro-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "Mabry-pro";
+  src: url("../fonts/mabrypro-medium/MiConv.com__MabryPro-Medium.eot") format("eot"), url("../fonts/mabrypro-medium/MabryPro-Medium.woff") format("woff"), url("../fonts/mabrypro-medium/MabryPro-Medium.ttf") format("truetype"), url("../fonts/mabrypro-medium/MabryPro-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+/* стили главной страницы */
+.nav__link {
+  font-size: 20px;
+  font-family: Mabry-pro;
+  line-height: 130%;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 0px; }
+
+#main {
+  padding: 20px 20px 368px 20px;
+  background: url("../img/bg.png") no-repeat;
+  background-size: cover; }
+  #main h1 {
+    margin-top: 248px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #main p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #main .btn-primary {
+    margin-top: 30px;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+
+#advantages {
+  background-image: url("../img/bg__advantages.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #advantages .advantages__item {
+    margin: 40px 0px; }
+    #advantages .advantages__item h3 {
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #advantages .advantages__item p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-family: Mabry-pro;
+      line-height: 130%;
+      color: #3A3532;
+      text-decoration: none;
+      font-weight: 300;
+      margin-bottom: 0px; }
+  #advantages h1 {
+    color: #3A3532;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+
+#brand .brand__item img {
+  overflow: hidden; }
+
+#catalog h1 {
+  color: #3A3532;
+  font-size: 60px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px; }
+#catalog .row {
+  margin-top: 30px; }
+#catalog .card {
+  height: 520px;
+  border-radius: 18px;
+  padding: 28px; }
+  #catalog .card .title {
+    margin-top: auto; }
+    #catalog .card .title h4 {
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #catalog .card .title .title__item {
+      gap: 10px;
+      margin-top: 8px; }
+      #catalog .card .title .title__item p {
+        font-size: 20px;
+        font-family: Mabry-pro;
+        line-height: 130%;
+        color: #FCFCFC;
+        text-decoration: none;
+        font-weight: 300;
+        margin-bottom: 0px; }
+#catalog .btn-block {
+  margin-top: 40px;
+  border-radius: 47px;
+  font-size: 20px;
+  line-height: 120%;
+  width: 100%;
+  height: 90px;
+  background: none;
+  font-family: Mabry-pro;
+  font-weight: 300;
+  border: 1px solid #3A3532; }
+
+#completedProjects .title h1 {
+  color: #3A3532;
+  font-size: 60px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px; }
+#completedProjects .title .btn-secondary {
+  border-radius: 47px;
+  font-size: 20px;
+  width: 295px;
+  height: 60px;
+  background: none;
+  font-family: Mabry-pro;
+  font-weight: 300;
+  color: #3A3532;
+  border: 1px solid #3A3532; }
+#completedProjects .project {
+  background: url("../img/bg__project.png") no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  width: 100%;
+  height: 744px;
+  border-radius: 18px; }
+#completedProjects .CompletedProjects__item {
+  margin-top: 40px; }
+  #completedProjects .CompletedProjects__item h2 {
+    color: #3A3532;
+    font-size: 48px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #completedProjects .CompletedProjects__item p {
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #3A3532;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+#completedProjects .tags {
+  gap: 10px;
+  margin-top: 30px; }
+  #completedProjects .tags .tag {
+    border: 1px solid #CACACA;
+    border-radius: 26px;
+    font-size: 20px;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    padding: 8px 42px;
+    width: max-content;
+    gap: 10px; }
+  #completedProjects .tags .tags__item {
+    gap: 10px; }
+
+#reviews .title h1 {
+  color: #3A3532;
+  font-size: 60px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px; }
+#reviews .btn-reviews {
+  font-family: Mabry-pro;
+  font-weight: 300;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #3A3532; }
+  #reviews .btn-reviews:focus {
+    border: none; }
+#reviews .card {
+  margin-top: 30px;
+  width: 100%;
+  height: 235px;
+  border-radius: 20px;
+  border: 1px solid #CACACA;
+  background: none;
+  padding: 30px;
+  background-color: #ECECEC; }
+  #reviews .card .title {
+    gap: 10px; }
+  #reviews .card h4 {
+    color: #3A3532;
+    font-size: 26px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 500;
+    margin-bottom: 0px; }
+  #reviews .card p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #3A3532;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+#reviews .slider-container {
+  gap: 20px;
+  transition: transform 0.5s ease; }
+#reviews .slider-item {
+  flex: 0 0 calc((100% - 40px) / 3); }
+#reviews .slider-item:nth-child(3) {
+  margin-right: -20px; }
+
+#designers .title h1 {
+  color: #3A3532;
+  font-size: 60px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px; }
+#designers .title p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Mabry-pro;
+  line-height: 130%;
+  color: #3A3532;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 0px; }
+#designers .row {
+  margin-top: 30px; }
+  #designers .row p {
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #3A3532;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #designers .row .designers__item {
+    gap: 20px; }
+#designers .designerProject {
+  background: url("../img/bg__designerProject.png") no-repeat;
+  margin-top: 30px;
+  width: 100%;
+  height: 744px;
+  border-radius: 18px; }
+#designers .btn-block {
+  margin-top: 40px;
+  border-radius: 47px;
+  font-size: 20px;
+  line-height: 120%;
+  width: 100%;
+  height: 90px;
+  background: none;
+  font-family: Mabry-pro;
+  font-weight: 300;
+  border: 1px solid #3A3532; }
+
+#cta .btn-cta {
+  color: #3A3532;
+  font-size: 105px;
+  font-family: Mabry Pro;
+  font-weight: 300;
+  line-height: 100%;
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/bg__btn-cta.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+/* стили каталога */
+#mainCatalog {
+  padding: 20px 20px 120px 20px; }
+  #mainCatalog .btn-text {
+    margin-top: 74px;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #mainCatalog h1 {
+    margin-top: 20px;
+    color: #3A3532;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #mainCatalog .tab-bar {
+    margin-top: 30px;
+    gap: 10px; }
+    #mainCatalog .tab-bar .tab__item {
+      cursor: pointer;
+      padding: 0px 42px;
+      width: max-content;
+      height: 42px;
+      border-radius: 26px;
+      border: 1px solid #DBDBDB;
+      font-size: 20px;
+      font-family: Mabry-pro;
+      font-weight: 300;
+      color: #3A3532;
+      margin-bottom: 0; }
+    #mainCatalog .tab-bar .tab__item-active {
+      background-color: #FFFFFF !important;
+      border: none !important; }
+  #mainCatalog hr {
+    margin: 40px 0px;
+    color: #CACACA; }
+  #mainCatalog .catalogContent {
+    display: none; }
+  #mainCatalog .catalogContent-active {
+    display: flex !important; }
+  #mainCatalog .card {
+    height: 520px;
+    border-radius: 18px;
+    padding: 28px;
+    border: 1px rgba(58, 53, 50, 0) solid; }
+    #mainCatalog .card .title {
+      margin-top: auto; }
+      #mainCatalog .card .title h4 {
+        color: #FCFCFC;
+        font-size: 26px;
+        line-height: 120%;
+        font-family: "Mabry-pro";
+        font-weight: 500;
+        margin-bottom: 0px; }
+      #mainCatalog .card .title .title__item {
+        gap: 10px;
+        margin-top: 8px; }
+        #mainCatalog .card .title .title__item p {
+          font-size: 20px;
+          font-family: Mabry-pro;
+          line-height: 130%;
+          color: #FCFCFC;
+          text-decoration: none;
+          font-weight: 300;
+          margin-bottom: 0px; }
+  #mainCatalog .btn-block {
+    margin-top: 40px;
+    border-radius: 47px;
+    font-size: 20px;
+    line-height: 120%;
+    width: 100%;
+    height: 90px;
+    background: none;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    border: 1px solid #3A3532; }
+  #mainCatalog .catalogCard-hide, #mainCatalog .catalogCard-hide-2, #mainCatalog .catalogCard-hide-3, #mainCatalog .catalogCard-hide-4, #mainCatalog .catalogCard-hide-5, #mainCatalog .catalogCard-hide-6 {
+    display: none; }
+  #mainCatalog .catalogCard-show, #mainCatalog .catalogCard-show-2, #mainCatalog .catalogCard-show-3, #mainCatalog .catalogCard-show-4, #mainCatalog .catalogCard-show-5, #mainCatalog .catalogCard-show-6 {
+    display: inline-block; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+/* стили страницы 404 */
+#errorPage {
+  padding: 20px 20px 80px 20px;
+  background: url("../img/bg__error-page.png") no-repeat;
+  background-size: cover; }
+  #errorPage h1 {
+    margin-top: 248px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #errorPage p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #errorPage .btn-group {
+    margin-top: 30px;
+    gap: 40px; }
+    #errorPage .btn-group .btn-primary {
+      width: 403px;
+      color: #3A3532;
+      border-radius: 40px;
+      font-size: 24px;
+      line-height: 120%;
+      width: 330px;
+      height: 78px;
+      background: #FCFCFC;
+      font-family: Mabry-pro;
+      font-weight: 400;
+      border: none; }
+    #errorPage .btn-group .btn-secondary {
+      background: none;
+      border: none;
+      border-radius: 47px;
+      font-size: 20px;
+      width: 295px;
+      height: 60px;
+      background: none;
+      font-family: Mabry-pro;
+      font-weight: 300;
+      width: max-content !important; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+#mainPortfolio {
+  padding: 20px 20px 120px 20px; }
+  #mainPortfolio header .btn-secondary {
+    margin-top: 0px; }
+  #mainPortfolio h1 {
+    margin-top: 120px;
+    color: #3A3532;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #mainPortfolio h2 {
+    color: #3A3532;
+    font-size: 48px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #mainPortfolio .portfolio__item:nth-last-child(-n+3) {
+    margin-top: 120px; }
+  #mainPortfolio .project {
+    margin-top: 30px;
+    width: 100%;
+    height: 744px;
+    border-radius: 18px; }
+  #mainPortfolio .CompletedProjects__item {
+    margin-top: 40px; }
+    #mainPortfolio .CompletedProjects__item h2 {
+      color: #3A3532;
+      font-size: 48px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 400;
+      margin-bottom: 0px; }
+    #mainPortfolio .CompletedProjects__item p {
+      font-size: 20px;
+      font-family: Mabry-pro;
+      line-height: 130%;
+      color: #3A3532;
+      text-decoration: none;
+      font-weight: 300;
+      margin-bottom: 0px; }
+  #mainPortfolio .tags {
+    gap: 10px;
+    margin-top: 30px; }
+    #mainPortfolio .tags .tag {
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+    #mainPortfolio .tags .tags__item {
+      gap: 10px; }
+  #mainPortfolio .btn-secondary {
+    margin-top: 30px;
+    border-radius: 47px;
+    font-size: 20px;
+    width: 295px;
+    height: 60px;
+    background: none;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    color: #3A3532;
+    border: 1px solid #3A3532; }
+  #mainPortfolio .portfolio__item-hidden {
+    display: none; }
+  #mainPortfolio .portfolio__item-show {
+    display: block; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+#projectPage {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__project-page.png") no-repeat;
+  background-size: cover; }
+  #projectPage .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #projectPage .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #projectPage .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #projectPage h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #projectPage h3 {
+    margin-top: 10px;
+    color: #FCFCFC !important;
+    font-weight: 400 !important;
+    color: #3A3532;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 500;
+    margin-bottom: 0px; }
+  #projectPage p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #projectPage .btn-primary {
+    margin-top: 16px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #projectPage .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #projectPage .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #projectPage .gallery, #projectPage .project-gallery__item {
+    gap: 15px;
+    margin-top: 40px; }
+  #projectPage .gallery__slider-container {
+    transition: transform 0.5s ease; }
+  #projectPage .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #projectPage .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #projectPage .gallery__slider-prev, #projectPage .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#projectPageTwo {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__project-pageTwo.png") no-repeat;
+  background-size: cover; }
+  #projectPageTwo .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #projectPageTwo .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #projectPageTwo .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #projectPageTwo h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #projectPageTwo h3 {
+    margin-top: 10px;
+    color: #FCFCFC !important;
+    font-weight: 400 !important;
+    color: #3A3532;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 500;
+    margin-bottom: 0px; }
+  #projectPageTwo p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #projectPageTwo .btn-primary {
+    margin-top: 16px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #projectPageTwo .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #projectPageTwo .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #projectPageTwo .gallery, #projectPageTwo .project-gallery__item {
+    gap: 15px;
+    margin-top: 40px; }
+  #projectPageTwo .gallery__slider-container {
+    transition: transform 0.5s ease; }
+  #projectPageTwo .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 3); }
+  #projectPageTwo .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #projectPageTwo .gallery__slider-prev, #projectPageTwo .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#projectPageThree {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__project-pageThree.png") no-repeat;
+  background-size: cover; }
+  #projectPageThree .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #projectPageThree .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #projectPageThree .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #projectPageThree h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #projectPageThree h3 {
+    margin-top: 10px;
+    color: #FCFCFC !important;
+    font-weight: 400 !important;
+    color: #3A3532;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 500;
+    margin-bottom: 0px; }
+  #projectPageThree p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #projectPageThree .btn-primary {
+    margin-top: 16px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #projectPageThree .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #projectPageThree .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #projectPageThree .gallery, #projectPageThree .project-gallery__item {
+    gap: 15px;
+    margin-top: 40px; }
+  #projectPageThree .gallery__slider-container {
+    transition: transform 0.5s ease; }
+  #projectPageThree .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #projectPageThree .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #projectPageThree .gallery__slider-prev, #projectPageThree .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#projectPageFour {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__project-pageFour.png") no-repeat;
+  background-size: cover; }
+  #projectPageFour .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #projectPageFour .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #projectPageFour .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #projectPageFour h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #projectPageFour h3 {
+    margin-top: 10px;
+    color: #FCFCFC !important;
+    font-weight: 400 !important;
+    color: #3A3532;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 500;
+    margin-bottom: 0px; }
+  #projectPageFour p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #projectPageFour .btn-primary {
+    margin-top: 16px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #projectPageFour .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #projectPageFour .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #projectPageFour .gallery, #projectPageFour .project-gallery__item {
+    gap: 15px;
+    margin-top: 40px; }
+  #projectPageFour .gallery__slider-container {
+    transition: transform 0.5s ease; }
+  #projectPageFour .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #projectPageFour .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #projectPageFour .gallery__slider-prev, #projectPageFour .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#projectPageFive {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__project-pageFive.png") no-repeat;
+  background-size: cover; }
+  #projectPageFive .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #projectPageFive .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #projectPageFive .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #projectPageFive h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #projectPageFive h3 {
+    margin-top: 10px;
+    color: #FCFCFC !important;
+    font-weight: 400 !important;
+    color: #3A3532;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 500;
+    margin-bottom: 0px; }
+  #projectPageFive p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #projectPageFive .btn-primary {
+    margin-top: 16px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #projectPageFive .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #projectPageFive .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #projectPageFive .gallery, #projectPageFive .project-gallery__item {
+    gap: 15px;
+    margin-top: 40px; }
+  #projectPageFive .gallery__slider-container {
+    transition: transform 0.5s ease; }
+  #projectPageFive .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #projectPageFive .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #projectPageFive .gallery__slider-prev, #projectPageFive .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+#CatalogPageOne {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalog-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageOne .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageOne .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageOne .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageOne h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageOne .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageOne .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageOne .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageOne p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageOne .btn-primary {
+    margin-top: 30px;
+    width: 403px;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    height: 78px;
+    background: #FCFCFC;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageOne .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageOne .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageOne .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageOne .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageOne .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageOne .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageOne .gallery__slider-prev, #CatalogPageOne .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageTwo {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogTwo-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageTwo .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageTwo .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageTwo .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageTwo h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageTwo .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageTwo .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageTwo .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageTwo p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageTwo .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageTwo .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageTwo .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageTwo .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageTwo .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageTwo .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageTwo .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageTwo .gallery__slider-prev, #CatalogPageTwo .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageThree {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogThree-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageThree .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageThree .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageThree .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageThree h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageThree .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageThree .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageThree .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageThree p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageThree .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageThree .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageThree .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageThree .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageThree .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageThree .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageThree .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageThree .gallery__slider-prev, #CatalogPageThree .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageFour {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogFour-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageFour .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageFour .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageFour .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageFour h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageFour .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageFour .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageFour .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageFour p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageFour .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageFour .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageFour .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageFour .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageFour .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageFour .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageFour .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageFour .gallery__slider-prev, #CatalogPageFour .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageFive {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogFive-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageFive .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageFive .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageFive .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageFive h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageFive .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageFive .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageFive .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageFive p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageFive .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageFive .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageFive .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageFive .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageFive .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageFive .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageFive .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageFive .gallery__slider-prev, #CatalogPageFive .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageSix {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogSix-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageSix .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageSix .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageSix .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageSix h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageSix .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageSix .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageSix .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageSix p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageSix .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageSix .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageSix .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageSix .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageSix .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageSix .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageSix .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageSix .gallery__slider-prev, #CatalogPageSix .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageSeven {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogSeven-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageSeven .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageSeven .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageSeven .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageSeven h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageSeven .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageSeven .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageSeven .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageSeven p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageSeven .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageSeven .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageSeven .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageSeven .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageSeven .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageSeven .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageSeven .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageSeven .gallery__slider-prev, #CatalogPageSeven .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageEight {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogEight-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageEight .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageEight .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageEight .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageEight h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageEight .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageEight .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageEight .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageEight p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageEight .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageEight .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageEight .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageEight .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageEight .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageEight .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageEight .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageEight .gallery__slider-prev, #CatalogPageEight .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageNine {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogNine-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageNine .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageNine .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageNine .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageNine h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageNine .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageNine .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageNine .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageNine p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageNine .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageNine .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageNine .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageNine .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageNine .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageNine .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageNine .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageNine .gallery__slider-prev, #CatalogPageNine .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageTen {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogTen-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageTen .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageTen .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageTen .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageTen h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageTen .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageTen .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageTen .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageTen p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageTen .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageTen .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageTen .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageTen .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageTen .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageTen .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageTen .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageTen .gallery__slider-prev, #CatalogPageTen .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+#CatalogPageEleven {
+  transition: background-image 0.5s ease-in-out;
+  padding: 20px 20px 95px 20px;
+  background: url("../img/bg__catalogEleven-page.png") no-repeat;
+  background-size: cover; }
+  #CatalogPageEleven .btn-text {
+    margin-top: 60px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    color: #3A3532;
+    font-family: Mabry Pro;
+    font-weight: 300;
+    line-height: 130%;
+    background: none;
+    border: none;
+    width: max-content; }
+  #CatalogPageEleven .tags {
+    margin-top: 49px;
+    gap: 10px; }
+    #CatalogPageEleven .tags .tag {
+      background: #FFFFFF;
+      border: none;
+      border: 1px solid #CACACA;
+      border-radius: 26px;
+      font-size: 20px;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      padding: 8px 42px;
+      width: max-content;
+      gap: 10px; }
+  #CatalogPageEleven h1 {
+    margin-top: 49px;
+    color: #FCFCFC;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #CatalogPageEleven .catalog__prise {
+    gap: 10px;
+    margin-top: 10px; }
+    #CatalogPageEleven .catalog__prise h3 {
+      color: #FCFCFC !important;
+      font-weight: 500 !important;
+      color: #3A3532;
+      font-size: 28px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+    #CatalogPageEleven .catalog__prise h4 {
+      opacity: 0.5;
+      font-weight: 300 !important;
+      color: #FCFCFC;
+      font-size: 26px;
+      line-height: 120%;
+      font-family: "Mabry-pro";
+      font-weight: 500;
+      margin-bottom: 0px; }
+  #CatalogPageEleven p {
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #CatalogPageEleven .btn-primary {
+    margin-top: 30px;
+    width: 403px !important;
+    color: #3A3532;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 120%;
+    width: 330px;
+    height: 78px;
+    background: #FCFCFC;
+    font-family: Mabry-pro;
+    font-weight: 400;
+    border: none; }
+  #CatalogPageEleven .btn-group {
+    gap: 20px;
+    margin-top: 40px; }
+    #CatalogPageEleven .btn-group .btn-link {
+      gap: 10px;
+      font-size: 20px;
+      color: #FCFCFC;
+      font-family: Mabry Pro;
+      font-weight: 300;
+      line-height: 130%;
+      background: none;
+      border: none;
+      width: max-content;
+      text-decoration: none;
+      margin-bottom: 0px; }
+  #CatalogPageEleven .gallery {
+    gap: 15px;
+    margin-top: 40px; }
+  #CatalogPageEleven .gallery__slider-container {
+    gap: 10px;
+    transition: transform 0.5s ease; }
+  #CatalogPageEleven .gallery__slider-item {
+    flex: 0 0 calc((100% - -10px) / 5); }
+  #CatalogPageEleven .btn__gallery {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+  #CatalogPageEleven .gallery__slider-prev, #CatalogPageEleven .gallery__slider-next {
+    color: #FCFCFC;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Mabry-pro;
+    font-weight: 300;
+    font-size: 24px; }
+
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+ul {
+  padding: 0; }
+
+/* адаптив */
+@media (max-width: 1399.98px) {
+  .header-secondary #OpenMenu {
+    color: #3A3532; }
+  .header-secondary .tab-bar {
+    white-space: nowrap !important; }
+
+  .custom-container {
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  h1 {
+    font-size: 45px !important; }
+
+  h2 {
+    font-size: 36px !important; }
+
+  .btn-primary, .btn-secondary {
+    font-size: 20px !important; }
+
+  .header-primary, .header-secondary {
+    justify-content: space-between !important;
+    padding: 20px !important; }
+
+  #completedProjects .tag, #mainPortfolio .tag {
+    font-size: 18px; }
+  #completedProjects .btn-secondary, #mainPortfolio .btn-secondary {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 47px;
+    font-size: 20px;
+    height: 60px;
+    background: none;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    border: 1px #3A3532 solid;
+    color: #3A3532; }
+
+  #mainPortfolio .tags__item {
+    flex-wrap: wrap !important; }
+  #mainPortfolio header .btn-secondary {
+    width: 295px; }
+
+  #reviews .card p {
+    font-size: 18px !important; }
+
+  #footer .footer__item {
+    padding: 40px 16px !important; } }
+@media (max-width: 1199.98px) {
+  .custom-container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #reviews .slider-item {
+    flex: 0 0 calc((100%) / 2) !important; }
+  #reviews .slider-item:last-child {
+    margin-left: -30px; }
+
+  .tab-bar {
+    white-space: nowrap !important;
+    flex-wrap: wrap !important; } }
+@media (max-width: 991.98px) {
+  #mainCatalog h1, #CatalogPageOne h1, #CatalogPageTwo h1, #CatalogPageThree h1, #CatalogPageFour h1, #CatalogPageFive h1, #CatalogPageSix h1, #CatalogPageSeven h1, #CatalogPageEight h1, #CatalogPageNine h1, #CatalogPageTen h1, #CatalogPageEleven h1, #projectPage h1, #projectPageTwo h1, #projectPageThree h1, #projectPageFour h1, #projectPageFive h1 {
+    margin-top: 64px !important; }
+
+  #CatalogPageOne p, #CatalogPageTwo p, #CatalogPageThree p, #CatalogPageFour p, #CatalogPageFive p, #CatalogPageSix p, #CatalogPageSeven p, #CatalogPageEight p, #CatalogPageNine p, #CatalogPageTen p, #CatalogPageEleven p, #projectPage p, #projectPageTwo p, #projectPageThree p, #projectPageFour p, #projectPageFive p {
+    margin-top: 20px !important; }
+
+  .custom-container {
+    max-width: 960px;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .brand__item {
+    height: 70px !important;
+    margin-right: 0px !important; }
+
+  .social-network-mobile {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px; }
+
+  .designers__item:nth-child(-n + 5) {
+    margin-top: 20px; }
+
+  #catalog .card {
+    background-size: cover !important; }
+  #catalog .card:nth-last-child(-n + 2) {
+    margin-top: 20px; }
+
+  #completedProjects .CompletedProjects__item {
+    flex-direction: column !important;
+    align-items: flex-start !important; }
+    #completedProjects .CompletedProjects__item h2 {
+      order: 1; }
+    #completedProjects .CompletedProjects__item p {
+      order: 0; }
+
+  #reviews .slider-item {
+    flex: 0 0 calc((100% - 10px) / 1) !important; }
+
+  #footer {
+    padding: 20px 0px 60px 0px; }
+    #footer .row .footer__item:nth-child(3) {
+      border-left: 0px !important;
+      border-top: 1px #3A3A3A solid;
+      padding-bottom: 0px !important; }
+      #footer .row .footer__item:nth-child(3) .btn-secondary {
+        margin-top: 20px !important;
+        width: 100% !important; }
+      #footer .row .footer__item:nth-child(3) p:nth-last-child(2) {
+        margin-top: 20px; }
+    #footer .nav__footer {
+      margin-top: 40px !important; }
+      #footer .nav__footer .nav__link {
+        font-weight: 300 !important; }
+    #footer .footer__map {
+      margin-top: 20px !important;
+      border-radius: 0px !important; } }
+@media (max-width: 767.98px) {
+  .custom-container {
+    max-width: 720px;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .brand__item {
+    height: 50px !important; }
+
+  .designerProject, .project {
+    background: url("../img/bg__project-md.png") no-repeat !important;
+    height: 558px !important;
+    background-size: cover; }
+
+  .menu__nav {
+    text-align: left !important; }
+    .menu__nav .nav__link {
+      font-size: 40px !important; }
+
+  .tab__item {
+    padding: 0px 24px !important;
+    font-size: 18px !important; }
+
+  #mainCatalog hr {
+    margin: 20px 0px !important; }
+  #mainCatalog .btn-block {
+    height: 60px !important; }
+
+  .project-gallery {
+    justify-content: center !important; }
+    .project-gallery .gallery__item {
+      width: 380px !important; }
+    .project-gallery .btn__gallery {
+      width: 60px !important;
+      height: 60px !important; } }
+@media (max-width: 575.98px) {
+  #CatalogPageOne, #CatalogPageTwo, #CatalogPageThree, #CatalogPageFour, #CatalogPageFive, #CatalogPageSix, #CatalogPageSeven, #CatalogPageEight, #CatalogPageNine, #CatalogPageTen, #CatalogPageEleven, #projectPage, #projectPageTwo, #projectPageThree, #projectPageFour, #projectPageFive {
+    padding-bottom: 60px !important; }
+    #CatalogPageOne .gallery, #CatalogPageTwo .gallery, #CatalogPageThree .gallery, #CatalogPageFour .gallery, #CatalogPageFive .gallery, #CatalogPageSix .gallery, #CatalogPageSeven .gallery, #CatalogPageEight .gallery, #CatalogPageNine .gallery, #CatalogPageTen .gallery, #CatalogPageEleven .gallery, #projectPage .gallery, #projectPageTwo .gallery, #projectPageThree .gallery, #projectPageFour .gallery, #projectPageFive .gallery {
+      margin-top: 20px !important; }
+
+  .custom-container {
+    max-width: 540px;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  h1 {
+    font-size: 38px !important; }
+
+  h2 {
+    font-size: 32px !important; }
+
+  .btn-primary, .btn-secondary {
+    font-size: 20px !important; }
+
+  .tag {
+    font-size: 16px !important; }
+
+  .designerProject, .project {
+    height: 417px !important;
+    background-size: cover; }
+
+  #reviews .custom-container {
+    display: flex;
+    flex-direction: column; }
+  #reviews .reviews__heading {
+    display: block !important;
+    color: #3A3532;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Mabry-pro";
+    font-weight: 400;
+    margin-bottom: 0px; }
+  #reviews .title {
+    order: 1; }
+    #reviews .title h1 {
+      display: none; }
+    #reviews .title .btn-group {
+      top: 10px;
+      margin: auto; }
+      #reviews .title .btn-group button {
+        font-size: 24px !important; }
+  #reviews .slider .card .title {
+    order: 0; }
+
+  #footer h6, #footer p {
+    font-size: 16px !important; }
+  #footer .nav__link {
+    font-size: 20px !important; }
+
+  .catalog__prise h3 {
+    font-size: 20px !important; }
+  .catalog__prise p {
+    font-size: 18px !important; }
+
+  .project-gallery .project-gallery__item {
+    gap: 5px !important; }
+  .project-gallery .gallery__slider {
+    gap: 5px !important; }
+  .project-gallery .gallery__item {
+    width: 270px !important; }
+  .project-gallery .btn__gallery {
+    width: 50px !important;
+    height: 50px !important; }
+
+  #mainPortfolio .btn-group {
+    align-items: center !important; }
+
+  .offcanvas .menu__nav {
+    text-align: start !important; }
+    .offcanvas .menu__nav .nav__item .nav__link {
+      font-size: 40px; } }
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1000px; } }
+@media screen and (max-width: 479.98px) {
+  h1 {
+    font-size: 28px !important; }
+
+  p {
+    font-size: 16px !important; }
+
+  #OpenMenu, .menu__btn-close {
+    font-size: 16px !important; }
+
+  .btn-primary, .btn-secondary, .btn-block {
+    font-size: 16px !important; }
+
+  #catalogPageOne .btn-primary, #CatalogPageTwo .btn-primary, #CatalogPageThree .btn-primary, #CatalogPageFour .btn-primary, #CatalogPageFive .btn-primary, #CatalogPageSix .btn-primary, #CatalogPageSeven .btn-primary, #CatalogPageEight .btn-primary, #CatalogPageNine .btn-primary, #CatalogPageTen .btn-primary, #CatalogPageEleven .btn-primary, #projectPage .btn-primary, #projectPageTwo .btn-primary, #projectPageThree .btn-primary, #projectPageFour .btn-primary, #projectPageFive .btn-primary {
+    margin-top: 56px !important;
+    width: 100% !important;
+    height: 60px !important; }
+
+  .brand__item {
+    height: 36px !important; }
+
+  .btn-primary {
+    width: 100% !important;
+    height: 60px !important; }
+
+  .modal__form-item input {
+    width: 100% !important; }
+
+  .menu__nav .nav__link {
+    font-size: 24px !important; }
+
+  .modal-content {
+    padding: 24px !important; }
+
+  .modal__header img {
+    width: 200px !important; }
+
+  #main {
+    padding: 10px 10px 125px 10px !important; }
+    #main .main__content h1 {
+      margin-top: 60px !important; }
+
+  #errorPage h1 {
+    margin-top: 60px !important; }
+  #errorPage .btn-group {
+    flex-direction: column !important;
+    gap: 20px !important; }
+
+  #mainPortfolio {
+    padding: 20px 20px 60px 20px !important; }
+    #mainPortfolio h1 {
+      margin-top: 60px !important; }
+    #mainPortfolio .portfolio__item .project {
+      margin-top: 20px !important; }
+    #mainPortfolio .portfolio__item:nth-last-child(-n+3) {
+      margin-top: 60px !important; }
+    #mainPortfolio .tags {
+      margin-top: 20px !important; }
+
+  #completedProjects .tags {
+    margin-top: 20px !important; }
+
+  .CompletedProjects__item {
+    margin-top: 20px !important; }
+
+  .brand__item img {
+    width: 300px !important; }
+
+  #reviews, #completedProjects, #catalog, #advantages, #designers {
+    margin: 60px 0px !important; }
+
+  .designerProject, .project {
+    height: 230px !important;
+    background-size: cover !important; }
+
+  #advantages {
+    margin-top: 10px !important; }
+    #advantages .advantages__item {
+      margin: 20px 0px !important; }
+      #advantages .advantages__item h3 {
+        font-size: 20px !important; }
+
+  #catalog .row {
+    margin-top: 0px !important; }
+  #catalog .btn-block {
+    margin-top: 20px !important;
+    height: 60px !important; }
+  #catalog .card {
+    height: 480px !important; }
+    #catalog .card h4 {
+      font-size: 20px !important; }
+    #catalog .card p {
+      margin-top: 5px !important; }
+
+  #mainCatalog .card {
+    height: 480px !important; }
+    #mainCatalog .card h4 {
+      font-size: 20px !important; }
+    #mainCatalog .card p {
+      margin-top: 5px !important; }
+
+  #designers .title p {
+    margin-top: 10px !important; }
+  #designers .designers__item:nth-child(-n + 5) {
+    margin-top: 14px; }
+  #designers .btn-block {
+    margin-top: 20px !important;
+    height: 60px !important; }
+  #designers .designerProject {
+    height: 348px !important; }
+
+  #reviews .slider .card {
+    padding: 16px !important;
+    height: 177px !important; }
+    #reviews .slider .card h4 {
+      font-size: 18px !important; }
+    #reviews .slider .card img {
+      width: 32px !important; }
+    #reviews .slider .card p {
+      font-size: 14px !important; }
+
+  #completedProjects .tag:nth-child(2) {
+    display: none !important; }
+  #completedProjects h2 {
+    font-size: 20px !important; }
+  #completedProjects .project {
+    height: 348px !important; }
+
+  #footer .logo img {
+    width: 119px !important; }
+  #footer h6, #footer p {
+    font-size: 14px !important; }
+  #footer .nav__footer {
+    margin-top: 20px !important; }
+  #footer .nav__link {
+    font-size: 14px !important; }
+  #footer .footer__item {
+    padding: 40px 8px !important; }
+
+  .btn__gallery {
+    width: 46px !important;
+    height: 46px !important; }
+
+  .gallery__item {
+    width: 167px !important; }
+
+  .btn-link {
+    font-size: 16px !important; }
+
+  .catalog__prise h3 {
+    font-size: 14px !important; }
+  .catalog__prise h4 {
+    font-size: 14px !important; }
+
+  #mainPortfolio .btn-secondary {
+    width: 100% !important; }
+  #mainPortfolio .tags .tag {
+    font-size: 14px !important; } }
+@media screen and (max-width: 374.98px) {
+  header .btn-secondary {
+    width: 170px !important;
+    height: 36px !important; }
+  header .icon__menu {
+    width: 18px !important; }
+
+  #catalog .card, #mainCatalog .card {
+    height: 300px !important; }
+
+  .btn-link {
+    font-size: 14px !important; }
+
+  h1 {
+    font-size: 20px !important; }
+
+  p {
+    font-size: 14px !important; }
+
+  .btn-primary, .btn-secondary {
+    font-size: 14px !important; }
+
+  .tag {
+    padding: 2px 16px !important; }
+
+  .tab__item {
+    font-size: 14px !important; }
+
+  #OpenMenu, .menu__btn-close {
+    font-size: 14px !important; }
+
+  #completedProjects h2 {
+    font-size: 20px !important; }
+
+  #footer .logo img {
+    width: 119px !important; }
+  #footer h6, #footer p {
+    font-size: 12px !important; }
+  #footer .nav__footer {
+    margin-top: 20px !important; }
+  #footer .nav__link {
+    font-size: 12px !important; }
+  #footer .footer__item {
+    padding: 20px 0px !important; }
+
+  .gallery__slider-prev, .gallery__slider-next {
+    font-size: 18px !important; }
+
+  .project-gallery .project-gallery__item {
+    flex-wrap: wrap; }
+
+  #mainPortfolio h2 {
+    font-size: 20px !important; } }
+body {
+  background-color: #ECECEC;
+  font-display: swap; }
+
+#reviews, #completedProjects, #catalog, #advantages, #designers {
+  margin: 120px 0px; }
+
+.card {
+  cursor: pointer; }
+
+.custom-container {
+  max-width: 1600px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.header-primary {
+  padding: 20px 80px 20px 46px;
+  border-radius: 20px;
+  border: 1px solid rgba(252, 252, 252, 0.25);
+  background: rgba(92, 84, 80, 0.1);
+  backdrop-filter: blur(12.5px); }
+  .header-primary .btn-secondary {
+    margin-left: auto;
+    border-radius: 47px;
+    font-size: 20px;
+    width: 295px;
+    height: 60px;
+    background: none;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    border: 1px solid #FCFCFC; }
+    .header-primary .btn-secondary:hover {
+      background: none;
+      border: 1px solid #FCFCFC; }
+  .header-primary .nav {
+    gap: 40px;
+    margin-left: 48px; }
+  .header-primary .nav__link {
+    color: #FCFCFC;
+    position: relative; }
+    .header-primary .nav__link::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: #FCFCFC;
+      /* Цвет подчеркивания */
+      bottom: 0;
+      transform: scaleX(0);
+      /* Расположение подчеркивания за пределами элемента */
+      transition: 0.2s ease-in-out; }
+    .header-primary .nav__link:hover::before {
+      transform: scaleX(1); }
+
+.header-secondary {
+  padding: 20px 80px 20px 46px;
+  border-radius: 20px;
+  border: 1px solid #FCFCFC;
+  background: #FCFCFC; }
+  .header-secondary .btn-secondary {
+    margin-left: auto;
+    border-radius: 47px;
+    font-size: 20px;
+    width: 295px;
+    height: 60px;
+    background: none;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    border: 1px solid #3A3532;
+    color: #3A3532; }
+    .header-secondary .btn-secondary:hover {
+      background: none;
+      border: 1px solid #3A3532; }
+  .header-secondary .nav {
+    gap: 40px;
+    margin-left: 48px; }
+  .header-secondary .nav__link {
+    color: #3A3532;
+    position: relative; }
+    .header-secondary .nav__link::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: #3A3532;
+      /* Цвет подчеркивания */
+      bottom: 0;
+      transform: scaleX(0);
+      /* Расположение подчеркивания за пределами элемента */
+      transition: 0.2s ease-in-out; }
+    .header-secondary .nav__link:hover::before {
+      transform: scaleX(1); }
+
+#footer {
+  background-color: #090909; }
+  #footer .row .footer__item:nth-last-child(-n+2) {
+    padding-left: 60px;
+    border-left: 1px solid;
+    border-left-color: #3A3A3A; }
+  #footer .row .footer__item {
+    padding: 40px 0px; }
+  #footer .nav__footer {
+    margin-top: 80px;
+    gap: 10px; }
+    #footer .nav__footer .nav__link {
+      color: #FCFCFC;
+      font-size: 28px;
+      font-weight: 500;
+      position: relative; }
+      #footer .nav__footer .nav__link::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: #FCFCFC;
+        /* Цвет подчеркивания */
+        bottom: 0;
+        transform: scaleX(0);
+        /* Расположение подчеркивания за пределами элемента */
+        transition: 0.2s ease-in-out; }
+      #footer .nav__footer .nav__link:hover::before {
+        transform: scaleX(1); }
+  #footer .btn-secondary {
+    margin-top: 80px;
+    border-radius: 47px;
+    font-size: 20px;
+    width: 295px;
+    height: 60px;
+    background: none;
+    font-family: Mabry-pro;
+    font-weight: 300; }
+  #footer .contact__item h6 {
+    font-size: 20px;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    line-height: 130%;
+    color: #3A3A3A;
+    margin-bottom: 0px; }
+  #footer .contact__item p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #footer .footer__social-network {
+    margin-top: 139px; }
+    #footer .footer__social-network .social-network__item {
+      margin-top: 49px;
+      gap: 20px; }
+    #footer .footer__social-network a {
+      text-decoration: underline !important;
+      font-size: 20px;
+      font-family: Mabry-pro;
+      line-height: 130%;
+      color: #FCFCFC;
+      text-decoration: none;
+      font-weight: 300;
+      margin-bottom: 0px; }
+  #footer .title h6 {
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-weight: 500; }
+  #footer .title p {
+    margin-top: 10px;
+    color: #3A3A3A !important;
+    font-size: 20px;
+    font-family: Mabry-pro;
+    line-height: 130%;
+    color: #3A3532;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 0px; }
+  #footer .footer__map {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100%; }
+  #footer .allRights {
+    border-top: 1px solid;
+    border-top-color: #3A3A3A;
+    padding: 20px 0px; }
+    #footer .allRights p {
+      color: #5C5959 !important;
+      font-size: 20px;
+      font-family: Mabry-pro;
+      line-height: 130%;
+      color: #FCFCFC;
+      text-decoration: none;
+      font-weight: 300;
+      margin-bottom: 0px; }
+
+.modal-content {
+  padding: 25px 0px 47px 0px;
+  height: 540px;
+  background-color: black; }
+  .modal-content h3 {
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-size: 33px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400; }
+  .modal-content p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400; }
+  .modal-content .modal__form-item input {
+    width: 384px;
+    height: 38px;
+    background-color: #D9D9D9;
+    border-radius: 6px; }
+  .modal-content .modal__form-item:first-child {
+    margin-bottom: 16px; }
+    .modal-content .modal__form-item:first-child input::placeholder {
+      color: #989898;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 18px; }
+    .modal-content .modal__form-item:first-child input {
+      padding-left: 39px; }
+  .modal-content .modal__form-item:nth-child(2) {
+    margin-bottom: 22px; }
+    .modal-content .modal__form-item:nth-child(2) input::placeholder {
+      color: #989898;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 18px; }
+    .modal-content .modal__form-item:nth-child(2) input {
+      padding-left: 39px; }
+  .modal-content .form-check {
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    .modal-content .form-check input {
+      width: 20px;
+      height: 20px;
+      border-radius: 0px;
+      background-color: #D9D9D9; }
+    .modal-content .form-check label {
+      margin-top: 5px;
+      color: #FFFFFF;
+      font-size: 12px;
+      margin-bottom: 0px; }
+  .modal-content .modal__footer {
+    margin-top: 30px; }
+    .modal-content .modal__footer button {
+      width: 403px;
+      height: 78px;
+      background-color: #FCFCFC;
+      border-radius: 120px;
+      color: #3A3532;
+      font-size: 24px;
+      font-family: Mabry-pro;
+      font-weight: 400; }
+  .modal-content .form-check-input:checked[type=checkbox] {
+    background-image: url("../img/icons/Done_light.svg"); }
+  .modal-content .form-check-input:checked {
+    background-color: #D9D9D9;
+    border-color: #D9D9D9; }
+  .modal-content .input-icon {
+    position: absolute;
+    top: 45%;
+    left: 7px;
+    transform: translateY(-50%); }
+  .modal-content .modal__body .title {
+    margin-top: 100px; }
+    .modal-content .modal__body .title h1 {
+      font-size: 64px;
+      color: #FFFFFF;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400; }
+    .modal-content .modal__body .title p {
+      margin-top: 8px;
+      font-size: 24px;
+      color: #FFFFFF;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400; }
+
+#OpenMenu {
+  gap: 5px;
+  font-size: 26px;
+  font-family: Mabry-pro;
+  font-weight: 300;
+  color: #FCFCFC; }
+
+.offcanvas {
+  width: 100% !important;
+  height: auto !important;
+  background-color: #ECECEC !important; }
+  .offcanvas .offcanvas-header {
+    padding: 20px 20px 0px 20px !important; }
+  .offcanvas .menu__btn-close {
+    gap: 5px;
+    font-size: 26px;
+    font-family: Mabry-pro;
+    font-weight: 300;
+    color: #3A3532;
+    background: none;
+    border: none; }
+  .offcanvas .menu__nav {
+    text-align: center;
+    margin: 60px 0px 24px 0px !important;
+    gap: 20px !important; }
+    .offcanvas .menu__nav .nav__item {
+      list-style-type: none !important; }
+      .offcanvas .menu__nav .nav__item .nav__link {
+        font-size: 48px;
+        color: #3A3532 !important;
+        font-weight: 400 !important;
+        position: relative !important; }
+        .offcanvas .menu__nav .nav__item .nav__link::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background-color: #3A3532;
+          /* Цвет подчеркивания */
+          bottom: 0;
+          transform: scaleX(0);
+          /* Расположение подчеркивания за пределами элемента */
+          transition: 0.2s ease-in-out; }
+        .offcanvas .menu__nav .nav__item .nav__link:hover::before {
+          transform: scaleX(1); }
+
+.popup {
+  z-index: 1000 !important; }
+  .popup .modal-content h1 {
+    margin-top: 56px;
+    font-size: 64px !important;
+    color: #FCFCFC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400; }
+  .popup .modal-content p {
+    margin-top: 48px;
+    font-size: 24px !important; }
+  .popup .modal-content h6 {
+    margin-top: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FCFCFC;
+    font-size: 14px;
+    height: auto !important; }
+
+/*# sourceMappingURL=style.css.map */

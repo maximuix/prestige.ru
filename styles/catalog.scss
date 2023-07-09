@@ -1,0 +1,94 @@
+@import 'vendors';
+
+/* стили каталога */
+
+#mainCatalog {
+  padding: 20px 20px 120px 20px;
+
+  .btn-text {
+    margin-top: 74px;
+   @include btn-text
+  }
+
+  h1 {
+    margin-top: 20px;
+    @include h1-black
+  }
+
+  .tab-bar {
+
+    margin-top: 30px;
+    gap: 10px;
+
+    .tab__item {
+      cursor: pointer;
+      padding: 0px 42px;
+      width: max-content;
+      height: 42px;
+      border-radius: 26px;
+      border: 1px solid #DBDBDB;
+      font-size: 20px;
+      font-family: Mabry-pro;
+      font-weight: 300;
+      color: $text-color;
+      margin-bottom: 0;
+
+    }
+
+    .tab__item-active {
+      background-color: #FFFFFF !important;
+      border: none !important;
+    }
+  }
+
+   hr {
+     margin: 40px 0px;
+     color: #CACACA;
+   }
+
+  .catalogContent {
+    display: none;
+  }
+
+  .catalogContent-active {
+    display: flex !important;
+  }
+
+  .card {
+    height: 520px;
+    border-radius: 18px;
+    padding: 28px;
+    border: 1px rgba(58, 53, 50, 0) solid;
+
+
+    .title {
+      margin-top: auto;
+      h4 {
+        @include h4
+      }
+
+      .title__item {
+        gap: 10px;
+        margin-top: 8px;
+
+        p {
+          @include p
+        }
+      }
+    }
+  }
+
+  .btn-block {
+    margin-top: 40px;
+    @include btn-block;
+  }
+
+ .catalogCard-hide, .catalogCard-hide-2, .catalogCard-hide-3, .catalogCard-hide-4, .catalogCard-hide-5, .catalogCard-hide-6 {
+   display: none;
+ }
+
+  .catalogCard-show, .catalogCard-show-2, .catalogCard-show-3, .catalogCard-show-4, .catalogCard-show-5, .catalogCard-show-6 {
+    display: inline-block;
+  }
+
+}

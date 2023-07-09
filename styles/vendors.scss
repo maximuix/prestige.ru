@@ -1,0 +1,365 @@
+/* Стили компонентов (Шрифты, кнопки, цвета) */
+
+$text-color: #3A3532;
+$text-color-2: #FCFCFC;
+$text-color-3: #3A3A3A;
+$bg-color: #ECECEC;
+$bg__footer: #090909;
+
+
+@mixin header-primary {
+  padding: 20px 80px 20px 46px;
+  border-radius: 20px;
+  border: 1px solid rgba(252, 252, 252, 0.25);
+  background: rgba(92, 84, 80, 0.10);
+  backdrop-filter: blur(12.5px);
+
+  .btn-secondary {
+    margin-left: auto;
+    @include btn-secondary;
+    border: 1px solid #FCFCFC;
+
+    &:hover {
+      background: none;
+      border: 1px solid #FCFCFC;
+    }
+  }
+
+  .nav {
+    gap: 40px;
+    margin-left: 48px;
+  }
+
+  .nav__link {
+    color: $text-color-2;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: $text-color-2; /* Цвет подчеркивания */
+      bottom: 0;
+      transform: scaleX(0); /* Расположение подчеркивания за пределами элемента */
+      transition: 0.2s ease-in-out;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+    }
+  }
+}
+
+@mixin header-secondary {
+  padding: 20px 80px 20px 46px;
+  border-radius: 20px;
+  border: 1px solid $text-color-2;
+  background: $text-color-2;
+
+
+  .btn-secondary {
+    margin-left: auto;
+    @include btn-secondary;
+    border: 1px solid $text-color;
+    color: $text-color;
+
+    &:hover {
+      background: none;
+      border: 1px solid $text-color;
+    }
+  }
+
+  .nav {
+    gap: 40px;
+    margin-left: 48px;
+  }
+
+  .nav__link {
+    color: $text-color;
+    position: relative;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: $text-color; /* Цвет подчеркивания */
+      bottom: 0;
+      transform: scaleX(0); /* Расположение подчеркивания за пределами элемента */
+      transition: 0.2s ease-in-out;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+    }
+  }
+}
+
+@mixin nav {
+  font-size: 20px;
+  font-family: Mabry-pro;
+  line-height: 130%;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 0px;
+
+
+}
+
+@mixin h1-white {
+  color: $text-color-2;
+  font-size: 60px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+@mixin h1-black {
+  color: $text-color;
+  font-size: 60px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+@mixin h2 {
+  color: $text-color;
+  font-size: 48px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+@mixin h3 {
+  color: $text-color;
+  font-size: 28px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@mixin h4 {
+  color: $text-color-2;
+  font-size: 26px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@mixin h4-black {
+  color: $text-color;
+  font-size: 26px;
+  line-height: 120%;
+  font-family: "Mabry-pro";
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@mixin p {
+  font-size: 20px;
+  font-family: Mabry-pro;
+  line-height: 130%;
+  color: $text-color-2;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+@mixin p-black {
+  font-size: 20px;
+  font-family: Mabry-pro;
+  line-height: 130%;
+  color: $text-color;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+@mixin make-container {
+  max-width: 1600px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin make-container-xxl {
+  max-width: 1200px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin make-container-xl {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin make-container-lg {
+  max-width: 960px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin make-container-md {
+  max-width: 720px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin make-container-sm {
+  max-width: 540px;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin btn-secondary {
+  border-radius: 47px;
+  font-size: 20px;
+  width: 295px;
+  height: 60px;
+  background: none;
+  font-family: Mabry-pro;
+  font-weight: 300;
+}
+
+@mixin btn-primary {
+  color: $text-color;
+  border-radius: 40px;
+  font-size: 24px;
+  line-height: 120%;
+  width: 330px;
+  height: 78px;
+  background: $text-color-2;
+  font-family: Mabry-pro;
+  font-weight: 400;
+  border: none;
+}
+
+@mixin btn-block {
+  border-radius: 47px;
+  font-size: 20px;
+  line-height: 120%;
+  width: 100%;
+  height: 90px;
+  background: none;
+  font-family: Mabry-pro;
+  font-weight: 300;
+  border: 1px solid $text-color;
+
+}
+
+@mixin btn-reviews {
+  font-family: Mabry-pro;
+  font-weight: 300;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: $text-color;
+
+  &:focus {
+    border: none;
+  }
+}
+
+@mixin btn-cta {
+  color: $text-color;
+  font-size: 105px;
+  font-family: Mabry Pro;
+  font-weight: 300;
+  line-height: 100%;
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/bg__btn-cta.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+@mixin btn-text {
+  font-size: 20px;
+  color: $text-color;
+  font-family: Mabry Pro;
+  font-weight: 300;
+  line-height: 130%;
+  background: none;
+  border: none;
+  width: max-content;
+}
+
+@mixin tag {
+  border: 1px solid #CACACA;
+  border-radius: 26px;
+  font-size: 20px;
+  font-family: Mabry Pro;
+  font-weight: 300;
+  line-height: 130%;
+  padding: 8px 42px;
+  width: max-content;
+  gap: 10px;
+}
+
+@mixin btn-link {
+  font-size: 20px;
+  color: $text-color-2;
+  font-family: Mabry Pro;
+  font-weight: 300;
+  line-height: 130%;
+  background: none;
+  border: none;
+  width: max-content;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+@mixin reviews__card {
+  width: 100%;
+  height: 235px;
+  border-radius: 20px;
+  border: 1px solid #CACACA;
+  background: none;
+  padding: 30px;
+  background-color: $bg-color;
+
+  .title {
+    gap: 10px;
+  }
+
+  h4 {
+    @include h4-black;
+
+  }
+
+  p {
+    margin-top: 10px;
+    @include p-black;
+  }
+}
+
+
+ul {
+  padding: 0;
+}

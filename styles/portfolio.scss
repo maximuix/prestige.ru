@@ -1,0 +1,75 @@
+@import "vendors";
+
+#mainPortfolio {
+  padding: 20px 20px 120px 20px;
+
+
+  header {
+    .btn-secondary {
+      margin-top: 0px;
+    }
+  }
+
+
+  h1 {
+    margin-top: 120px;
+    @include h1-black;
+  }
+
+  h2 {
+    @include h2
+  }
+
+  .portfolio__item:nth-last-child(-n+3) {
+   margin-top: 120px;
+  }
+
+  .project {
+    margin-top: 30px;
+    width: 100%;
+    height: 744px;
+    border-radius: 18px;
+  }
+
+  .CompletedProjects__item {
+    margin-top: 40px;
+
+    h2 {
+      @include h2
+    }
+
+    p {
+      @include p-black
+    }
+
+
+  }
+
+  .tags {
+    gap: 10px;
+    margin-top: 30px;
+
+    .tag {
+      @include tag
+    }
+
+    .tags__item {
+      gap: 10px;
+    } }
+
+  .btn-secondary {
+    margin-top: 30px;
+    @include btn-secondary;
+    color: $text-color;
+    border: 1px solid $text-color;
+  }
+
+  .portfolio__item-hidden {
+    display: none;
+  }
+
+  .portfolio__item-show {
+    display: block;
+  }
+
+}
